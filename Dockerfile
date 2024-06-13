@@ -20,9 +20,8 @@ RUN apt-get update && \
     ros-humble-plotjuggler \
     ros-humble-plotjuggler-ros \
     python3-pip && \
-    add-apt-repository universe
-    # add-apt-repository universe && \
-    # rm -rf /var/lib/apt/lists/*
+    add-apt-repository universe && \
+    rm -rf /var/lib/apt/lists/*
 
 # Install additional Python dependencies
 RUN pip install \
