@@ -44,5 +44,3 @@ RUN echo "source /root/clutterbot/install/setup.bash" >> ~/.bashrc
 
 # Set the default shell to bash
 SHELL ["/bin/bash", "-c"]
-
-RUN echo "export LIDAR_RESOLUTION=0.9" >> ~/.bashrc
