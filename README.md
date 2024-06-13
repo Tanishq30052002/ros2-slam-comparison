@@ -101,13 +101,13 @@ This project comprehensively compares different SLAM (Simultaneous Localization 
 
 2. **Build Docker Image:** Build the Docker image from the cloned repository:
     ```bash
-    cd ~/ros2-slam-comparasion
+    cd ~/Breadcrumbsros2-slam-comparison
     docker build -t clutterbot:base .
     ```
 
 3. **Start Docker Container:** Start the docker container
     ```bash
-    cd ~/ros2-slam-comparasion
+    cd ~/Breadcrumbsros2-slam-comparison
     docker compose up
     ```
 
