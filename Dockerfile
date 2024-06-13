@@ -17,8 +17,6 @@ RUN apt-get update && \
     ros-humble-navigation2 \
     ros-humble-nav2-bringup \
     ros-humble-ament-cmake \
-    ros-humble-plotjuggler \
-    ros-humble-plotjuggler-ros \
     python3-pip && \
     add-apt-repository universe && \
     rm -rf /var/lib/apt/lists/*
